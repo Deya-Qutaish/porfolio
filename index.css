@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+.dark-mode {
+  background: linear-gradient(45deg, rgb(46, 46, 46), rgb(116, 116, 116));
+  color: rgb(255, 255, 255);
+}
+
+.light-mode {
+  background: linear-gradient(45deg, rgb(252, 252, 252), rgb(255, 255, 255));
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: nunito sans;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(0, 0, 0);
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.empty {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  padding: 0 5rem 0 0;
+}
+.bar-name {
+  width: 50%;
+  padding-left: 5rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0.5rem;
+  border-right: solid;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px 0px rgb(206, 206, 206);
+}
+
+.dsc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-left: 0.5rem;
+  border: solid 1px;
+}
+
+.line-1 {
+  font-weight: 800;
+}
+
+.line-2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: grey;
+}
+
+.name {
+  color: rgb(250, 98, 98);
+  font-weight: 900;
+}
+
+.projects,
+.skills,
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+.prjct-box {
+  margin: 1rem;
+  padding: 1rem;
+  height: 30rem;
+  box-shadow: 5px 5px 15px 3px black;
+  border-radius: 10px;
+  width: 18rem;
+}
+
+.img {
+  border: solid 2px;
+  height: 17.5rem;
+  background-color: rgb(233, 232, 232);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgb(194, 192, 192);
+}
+
+.exp {
+  font-size: 1.5rem;
+  text-align: center;
+  color: grey;
+}
+
+.title {
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 3px rgb(252, 36, 36);
+  border-radius: 3px;
+}
+
+.code-langs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 800;
+  gap: 3rem;
+}
+
+.skill-box {
+  padding: 0.5rem;
+  box-shadow: 1px 3px 10px rgb(99, 99, 99);
+}
+
+.disclaimer {
+  width: 50rem;
+  padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+}
+
+@media screen and (max-width: 1120) {
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .dsc {
+    font-size: 10rem;
+    color: red;
+  }
+}
